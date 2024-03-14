@@ -1,0 +1,25 @@
+.btn-item.host:disabled,
+.btn-item.host:hover:disabled,
+.btn-item.participant:disabled,
+.btn-item.participant:hover:disabled {
+  background-color: #b9b2b2;
+  color: #d0d0d0;
+}
+
+.btn-item.host:hover {
+  background-color: #7ac360;
+  color: #f9f2f2;
+}
+
+.btn-item.participant:hover {
+  background-color: #5d5dd2;
+  color: #f9f2f2;
+}
+
+.host {
+  background: #549254;
+}
+
+.participant {
+  background: #4f3ebd;
+}

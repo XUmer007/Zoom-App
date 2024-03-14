@@ -1,0 +1,58 @@
+.tiles-data-content {
+  max-height: 75vh;
+  overflow: auto;
+}
+
+.tile-headers,
+.tile-row {
+  display: grid;
+  height: 50px;
+  margin: 10px 0;
+}
+
+.tile-headers {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.tile-headers .tile-header,
+.tile-row .tile {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.tile-row {
+  height: 80px;
+}
+
+.tile-row .tile {
+  background-color: var(--white);
+  color: #565758;
+}
+
+.tile-row .tile:not(:last-child) {
+  border-right: 1px solid var(--background);
+}
+
+.tile-row .tile:last-child {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.tile-row .tile:first-child {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.actions {
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: stretch !important;
+}
+
+.actions .action {
+  padding: 5px;
+  cursor: pointer;
+}

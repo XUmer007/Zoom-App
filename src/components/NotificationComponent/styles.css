@@ -1,0 +1,37 @@
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  min-height: 100px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  font-size: 1.2em;
+  font-weight: bolder;
+  letter-spacing: 4px;
+}
+
+.success {
+  background-color: #2dba44;
+  color: #cbe6ce;
+}
+
+.danger {
+  background-color: #dd5050;
+  color: #efefef;
+}
+
+.warning {
+  background-color: #d3b52d;
+  color: #b95740;
+}
+
+.info {
+  background-color: #5684d5;
+  color: #b7e0e0;
+}
+
+.default {
+  background-color: #f9f2f2;
+  color: #8f8e8e;
+}

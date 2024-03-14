@@ -1,0 +1,19 @@
+.tile-headers,
+.tile-row {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.date-tile {
+  color: #e37523 !important;
+  font-weight: 600;
+  letter-spacing: -1px;
+  font-style: italic;
+}
+
+.delete-option {
+  background-color: #d87777;
+}
+
+.meeting-option {
+  background-color: #77d897;
+}
